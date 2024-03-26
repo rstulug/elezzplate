@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     errorElement: <NotFound />,
     children: [
       { path: "recipe/:recipeId", element: <Recipe /> },
-      { path: "login", element: <Login /> },
+      { path: "signin", element: <Login /> },
       { path: "signup", element: <Signup /> },
       { path: "resetpassword", element: <ResetPassword /> },
       { path: "user/:usernameSlug", element: <UserPage /> },
